@@ -1,0 +1,28 @@
+.CardItem {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 10px;
+    max-width: 400px;
+  }
+  
+  .Header {
+    text-align: center;
+  }
+  
+  .ItemHeader {
+    margin: 0;
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .Info {
+    margin: 5px 0;
+  }
+  
+  .ItemFooter {
+    margin-top: 20px;
+  }

@@ -1,0 +1,35 @@
+.NavBar {
+    background-color: rgb(240, 201, 143);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .NavBar h3 {
+    margin: 0;
+    color: rgb(130, 17, 134);
+  }
+  
+  .Categories {
+    display: flex;
+  }
+  
+  .Option,
+  .ActiveOption {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Option:hover {
+    background-color: #555;
+  }
+  
+  .ActiveOption {
+    background-color: #555;
+  }
